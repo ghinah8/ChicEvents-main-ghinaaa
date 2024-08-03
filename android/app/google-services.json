@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "931238830014",
+    "project_id": "chec-events-584ad",
+    "storage_bucket": "chec-events-584ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931238830014:android:846dafc067e9b67d2fe3ef",
+        "android_client_info": {
+          "package_name": "com.example.chic_events"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwq8Nvf0afcgsrykOfqjJIv7_vTwNbZ0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
