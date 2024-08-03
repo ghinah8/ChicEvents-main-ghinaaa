@@ -328,9 +328,7 @@ class MyWidget extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: ElevatedButton(
-                    onPressed: () {
-                      _displayBottomSheet(context);
-                    },
+                    onPressed: () {},
                     style: ButtonStyle(
                       side: MaterialStateProperty.all(
                           const BorderSide(color: Colors.purple)),
@@ -356,23 +354,4 @@ class MyWidget extends StatelessWidget {
       ),
     );
   }
-}
-
-Future _displayBottomSheet(BuildContext context) {
-  return showModalBottomSheet(
-      context: context,
-      barrierColor: const Color(0xffBDAEC6).withOpacity(0.6),
-      shape: const RoundedRectangleBorder(
-          borderRadius: BorderRadius.vertical(top: Radius.circular(30))),
-      builder: (context) => const SizedBox(
-            height: 150,
-            width: 500,
-            child: Padding(
-              padding: EdgeInsets.only(top: 35, bottom: 9, left: 7, right: 5),
-              child: Text(
-                'Wait Admin to accept your order',
-                style: TextStyle(fontSize: 25),
-              ),
-            ),
-          ));
 }
